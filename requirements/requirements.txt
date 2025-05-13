@@ -1,0 +1,12 @@
+transformers  # For AutoTokenizer, VisionEncoderDecoderModel
+pillow        # For PIL (Image)
+torch         # For PyTorch
+opencv-python  # For cv2 (OpenCV)
+ultralytics    # For YOLO
+pipinstall torchvision    # For torchvision
+deepface      # For DeepFace
+scikit-learn  # For KMeans, KNeighborsClassifier, cosine_similarity
+numpy        # For numpy
+matplotlib   # For matplotlib.pyplot
+sentence-transformers  # For SentenceTransformer
+pymongo      # For MongoClient
