@@ -14,6 +14,7 @@ Models:
 BLIP + ViT + GPT-2
 Input: Image → Output: Generated Caption
 
+Modules:
 DeepFace (FaceNet)
 Input: Image → Output: Face Embedding
 
@@ -33,47 +34,45 @@ MTCNN + InceptionResnetV1 (FaceNet via facenet-pytorch)
 Input: Image → Output: Aligned Face & 512-D Embedding
 
 
-torch>=2.0.0
+torch
 Core PyTorch library for deep learning and tensor computations.
 
-transformers>=4.25.0
+transformers
 Hugging Face library for using pre-trained transformer models like GPT-2, BERT, etc.
 
-sentence-transformers>=2.2.2
+sentence-transformers
 Enables semantic similarity and embedding generation for sentences using transformer models.
 
-facenet-pytorch>=2.5.2
+facenet-pytorch
 Face detection and recognition models (MTCNN + InceptionResnetV1) in PyTorch.
 
-deepface>=0.0.79
+deepface
 Lightweight face recognition and facial attribute analysis framework.
 
-ultralytics>=8.0.20
+ultralytics
 Official YOLOv5/YOLOv8 implementation for real-time object detection.
 
-opencv-python>=4.7.0.72
+opencv-python
 OpenCV library for image and video processing tasks.
 
-Pillow>=9.5.0
+Pillow
 Python Imaging Library (PIL fork) for image manipulation and file I/O.
 
-torchvision>=0.15.0
+torchvision
 Image datasets, pre-trained models, and transforms for PyTorch.
 
-matplotlib>=3.7.1
+matplotlib
 Visualization library for plotting graphs, images, and data.
 
-scikit-learn>=1.2.2
+scikit-learn
 Machine learning library for classification, clustering, and more.
 
-numpy>=1.24.2
+numpy
 Core scientific computing library for numerical operations and arrays.
 
-pymongo>=4.3.3
+pymongo
 Python driver for MongoDB database interaction.
 
-bson>=0.5.10
-Binary JSON encoding/decoding used with MongoDB (for storing images, etc).
 
 
 
